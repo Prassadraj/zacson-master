@@ -7,6 +7,15 @@
     top: 20px;
     background-color: transparent; /* Set the background color to transparent */
 }
+.rockilogo{
+    width: 130px; /* Adjust width according to your logo size */
+    height: auto; /* Automatically adjust height to maintain aspect ratio */
+    border-radius: 50%;
+    position: absolute;
+    left: 80px;
+    top: 20px;
+    background-color: transparent;
+}
 #rockilogobottom{
     border-radius: 50%;
     width: 130px; /* Adjust width according to your logo size */
@@ -14,6 +23,10 @@
 }
 .hero__caption{
     margin-left: -90px;
+}
+/* about me  */
+.hero-cap h2{
+    color: black;
 }
 @media screen and (max-width: 768px) {
     #rockilogo {

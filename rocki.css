@@ -1,0 +1,38 @@
+#rockilogo {
+    width: 130px; /* Adjust width according to your logo size */
+    height: auto; /* Automatically adjust height to maintain aspect ratio */
+    border-radius: 50%;
+    position: absolute;
+    left: 80px;
+    top: 20px;
+    background-color: transparent; /* Set the background color to transparent */
+}
+#rockilogobottom{
+    border-radius: 50%;
+    width: 130px; /* Adjust width according to your logo size */
+    height: auto;
+}
+.hero__caption{
+    margin-left: -90px;
+}
+@media screen and (max-width: 768px) {
+    #rockilogo {
+        display: none; /* Hide the element */
+    }
+    .mapLocation iframe{
+        width: 390px;
+
+    }
+    .hero__caption{
+        margin-left: 90px;
+    }
+}
+@media only screen and (min-width: 370px) and (max-width: 768px) {
+    /* line 44, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_h1-hero.scss */
+    .single-slider .hero__caption {
+      /* background-image:url(/Users/prassadraj/Downloads/zacson-master/Doc/img/image4.jpeg); */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: auto;
+    }
+  }
